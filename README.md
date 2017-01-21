@@ -12,7 +12,7 @@ A highly-configurable next-gen React UI component library.
 ## Usage
 
 ```js
-var wolf = require('number-formatter');
+var wolf = require('wolfui');
 ```
 
 ## Tests
