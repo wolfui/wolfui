@@ -2,10 +2,10 @@
   "name": "wolfui",
   "version": "0.0.1",
   "description": "Configurable react components",
-  "homepage": "https://wolfui.com/",
-  "main": "/lib/index.js",
+  "homepage": "https://github.com/wolfui/wolfui#readme",
+  "main": "/src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,17 @@
     "react": ">=0.14.0",
     "react-dom": ">=0.14.0"
   },
+  "engines": {
+    "node": ">=7.4.0"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wolfui/wolfui/issues"
   },
-  "homepage": "https://github.com/wolfui/wolfui#readme"
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
