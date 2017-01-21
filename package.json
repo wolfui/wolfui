@@ -1,0 +1,22 @@
+{
+  "name": "wolfui",
+  "version": "0.0.1",
+  "description": "Configurable react components",
+  "main": "/lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfui/wolfui.git"
+  },
+  "keywords": [
+    "\"react\""
+  ],
+  "author": "\"ecosystem-react\",",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfui/wolfui/issues"
+  },
+  "homepage": "https://github.com/wolfui/wolfui#readme"
+}
