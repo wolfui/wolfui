@@ -2,6 +2,7 @@
   "name": "wolfui",
   "version": "0.0.1",
   "description": "Configurable react components",
+  "homepage": "https://wolfui.com/",
   "main": "/lib/index.js",
   "scripts": {
     "test": "test"
@@ -11,9 +12,15 @@
     "url": "git+https://github.com/wolfui/wolfui.git"
   },
   "keywords": [
-    "\"react\""
+    "react",
+    "components",
+    "user interface"
   ],
-  "author": "\"ecosystem-react\",",
+  "author": "MayStar Consulting, LLC.",
+  "peerDependencies": {
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wolfui/wolfui/issues"
