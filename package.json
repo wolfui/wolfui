@@ -1,0 +1,38 @@
+{
+  "name": "wolfui",
+  "version": "0.0.1",
+  "description": "Configurable react components",
+  "homepage": "https://github.com/wolfui/wolfui#readme",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfui/wolfui.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "user interface"
+  ],
+  "author": "MayStar Consulting, LLC.",
+  "peerDependencies": {
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0"
+  },
+  "engines": {
+    "node": ">=7.4.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfui/wolfui/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
