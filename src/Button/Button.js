@@ -67,6 +67,7 @@ export default class Button extends Component {
       fill,
       label,
       minimal,
+      onClick,
       size,
       style,
       type
@@ -104,6 +105,7 @@ export default class Button extends Component {
         disabled={disabled}
         style={style}
         type={type}
+        onClick={onClick}
       >
         {label}
       </button>
