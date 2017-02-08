@@ -1,5 +1,7 @@
 'use strict';
 
+export { default as Button } from './Button/Button';
+
 /**
  * Adds commas to a number
  * @param {number} number
