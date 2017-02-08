@@ -62,6 +62,7 @@ export default class Button extends Component {
     const {
       className,
       compact,
+      context,
       disabled,
       fill,
       label,
@@ -94,7 +95,7 @@ export default class Button extends Component {
       minimal ? 'wu-button-minimal' : null,
       size ? sizeClasses[size] : null,
       className
-    ].join(' ');
+    ].filter(el => el).join(' ').trim();
 
     // Return Component
     return (
