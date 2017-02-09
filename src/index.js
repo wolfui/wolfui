@@ -1,6 +1,7 @@
 'use strict';
 
 export { default as Button } from './Button/Button';
+export { default as Tag } from './Tag/Tag';
 
 /**
  * Adds commas to a number
@@ -8,6 +9,6 @@ export { default as Button } from './Button/Button';
  * @param {string} locale
  * @return {string}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
-};
+// module.exports = function(number, locale) {
+//     return number.toLocaleString(locale);
+// };
