@@ -7,7 +7,6 @@
   "scripts": {
     "build:dist": "npm run clean:dist && node_modules/webpack/bin/webpack.js",
     "clean:dist": "rm -rf dist",
-    "docs:serve": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./config/webpack.docs.config.js",
     "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
